@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center h-100" id="main-container">
+        <!-- <div class="container-fluid d-flex flex-md flex-row w-75" id="sub-container"> -->
+        <div class="row m-4" id="sub-container">
+            <!-- Poster -->
+            <div class="col-md mt-2 d-flex justify-content-center" id="poster-container">
+                <img src="img/lp_site.jpg" id="poster" alt="poster">
+            </div>
+            <!-- Details -->
+            <div class="d-flex flex-column justify-content-center col-md mt-2 text-details">
+                <!-- <div class="col-md"> -->
+                <h1 id="name">I Am Groot</h1>
+                <!-- <img src="img/Mx9YnI3P_4x copy.png" alt="img-title" style="width: 300px;"> -->
+                <p>“I Am Groot” is a collection of five original shorts starring Baby Groot, everyone’s favorite little tree, and will feature several new and unusual characters.</p>
+                <div id="details" >
+                    <p id="genre">Animation</p>
+                    <p id="year">Aug 10, 2022</p>
+                </div>
+                <div class="mt-3">
+                    <button type="button" class="btn btn-light m-1">
+                        <i class="bi bi-film"></i>
+                        Watch Trailer
+                    </button>
+                    <div class="btn-group m-1">
+                        <button type="button" class="btn btn-light">
+                            <i class="bi bi-play-fill"></i>
+                            Watch Episode 1
+                        </button>
+                        <button type="button" class="btn btn-outline-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Episode 1</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">Episode 2</a></li>
+                            <li><a class="dropdown-item" href="#">Episode 3</a></li> -->
+                        </ul>
+                    </div>
+                    <div>
+                        <video style="max-width: 100%;" controls preload muted>
+                            <source src="https://drive.google.com/uc?export=download&id=1X8OjpEygAHkSCfpY3UsWRRgWcUGbXZdA&confirm=t"
+                                type='video/mp4'>
+                        </video>
+                    </div>
+                    <!-- <button type="button" class="btn btn-light m-1 disabled">
+                        <i class="bi bi-play-fill"></i>
+                        Play Episode 1
+                    </button> -->
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Background -->
+        <div class="container-fluid d-flex align-items-center justify-content-center" id="background" />
+        <!-- <div id="background-container" class="red">
+            <img src="img/lp_site.jpg" id="background" alt="background" width="100%" height="100%">
+        </div> -->
+    </div>
+
+    <!-- Scripts -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

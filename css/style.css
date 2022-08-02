@@ -1,0 +1,121 @@
+
+/* #sub-container { } */
+
+h1 {
+    color: white !important;
+    font-weight: 600 !important;
+    /* font-size: 48pt !important; */
+}
+
+p {
+    color: white;
+}
+
+#details p {
+    display: inline;
+}
+
+#main-container {
+    overflow: hidden !important;
+}
+
+#details p {
+    color: rgba(255,255,255, 0.7) !important;
+}
+
+#year::before {
+    content: "• ";
+}
+
+body {
+    /* overflow: hidden; */
+}
+
+#poster {
+    border-radius: 10px;
+}
+
+.red { background-color: red; }
+
+.h-100 { min-height: 100vh; }
+
+/* #background-container { */
+#background {
+    
+    height: 150%;
+    /* max-height: 100vh; */
+
+    overflow: hidden !important;
+    background-image: url("../img/lp_site.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: 100%;
+
+    filter: blur(60px);
+    -webkit-filter: blur(60px);
+    /* transform: scale(1.7);  */
+
+    position: absolute;
+
+    z-index: -1; 
+}
+
+#poster {
+    width: 70%;
+    box-shadow: 0px 5px 15px;
+} 
+
+.text-details {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#poster-container {
+    /* align-items: flex-end !important; */
+}
+
+#sub-container {
+    width: 90%;
+}
+
+@media (max-width: 576px) {
+    #background {
+        height: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #poster {
+        width: 50%;
+    } 
+    #background {
+        height: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #poster {
+        width: 100%;
+    }
+    .text-details {
+        padding-top: none;
+        text-align: start !important;
+    }
+    #sub-container {
+        width: 80%;
+    }
+    #background {
+        max-height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    #poster {
+        width: 80%;
+    } 
+    #sub-container {
+        width: 70%;
+    }
+}
