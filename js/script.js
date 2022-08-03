@@ -8,10 +8,9 @@ const main = () => {
     const posterElement = document.getElementById("poster")
 
     const generateGradient = () => {
-        const c = colorThief.getPalette(posterElement)
+        const palette = colorThief.getPalette(posterElement)
         const body = document.querySelector("body")
-
-        body.style.background = getGradientBackground(c)
+        body.style.background = getGradientBackground(palette)
         body.style.backgroundSize = "400% 400%"
     }
 
@@ -27,9 +26,6 @@ function getGradientBackground(palette) {
         gradient += `${rgb(color)},`;
         i++;
     }
-    // palette.forEach(color => {
-    //     gradient += `${rgb(color)},`
-    // });
     gradient = gradient.slice(0, -1) // Remove last comma
     gradient += ")"
     console.log(gradient)

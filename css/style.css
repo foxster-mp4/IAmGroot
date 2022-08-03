@@ -71,8 +71,8 @@ body {
     /* background-position: center; */
     background-size: 100%;
 
-    /* filter: blur(60px);
-    -webkit-filter: blur(60px); */
+    filter: blur(60px);
+    -webkit-filter: blur(60px);
     /* transform: scale(1.7);  */
 
     position: absolute;
@@ -87,20 +87,22 @@ body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 100% 100%;
-	animation: gradient 0.1s infinite;
-	height: 100vh;
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 15s linear infinite;
 }
 
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
+    25% {
+        background-position: 100% 50%;
+    }
 	50% {
-		background-position: 100% 50%;
+		background-position: 75% 100%;
+	}
+    75% {
+		background-position: 0% 100%;
 	}
 	100% {
 		background-position: 0% 50%;
