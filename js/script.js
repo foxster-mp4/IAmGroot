@@ -11,7 +11,7 @@ const main = () => {
         const palette = colorThief.getPalette(posterElement)
         const body = document.querySelector("body")
         body.style.background = getGradientBackground(palette)
-        body.style.backgroundSize = "400% 400%"
+        body.style.backgroundSize = "500% 500%"
     }
 
     if (posterElement.complete) generateGradient() 
