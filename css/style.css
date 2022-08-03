@@ -68,7 +68,7 @@ body {
 
 body {
 	background-size: 100% 100%;
-    animation: gradient 15s linear infinite;
+    /* animation: gradient 15s linear infinite; */
     transform: translateZ(0);
 }
 
@@ -131,7 +131,7 @@ body {
     #poster {
         min-width: 50%;
         width: 90%;
-        height: fit-content;
+        /* height: fit-content; */
     } 
     #background {
         height: 100%;
