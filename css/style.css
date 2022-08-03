@@ -136,6 +136,10 @@ body {
     #background {
         height: 100%;
     }
+    .text-details {
+        padding-top: none;
+        text-align: start !important;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -145,10 +149,6 @@ body {
         min-width: auto;
         width: 70%;
         max-width: 100vh;
-    }
-    .text-details {
-        padding-top: none;
-        text-align: start !important;
     }
     #sub-container {
         width: 80%;
