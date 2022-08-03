@@ -28,7 +28,7 @@ p {
 }
 
 body {
-    /* overflow: hidden; */
+    max-height: 100vh;
 }
 
 #poster {
@@ -69,6 +69,7 @@ body {
 body {
 	background-size: 100% 100%;
     animation: gradient 15s linear infinite;
+    transform: translateZ(0);
 }
 
 @keyframes gradient {
