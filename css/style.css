@@ -1,7 +1,11 @@
 h1 {
     color: white !important;
     font-weight: 600 !important;
-    /* font-size: 48pt !important; */
+}
+
+h6 {
+    color: rgba(255,255,255, 0.7);
+    text-transform: uppercase;
 }
 
 p {
@@ -25,10 +29,6 @@ p {
     position: relative;
     top: -1px;
     right: -45px;
-}
-
-body {
-    max-height: 100vh;
 }
 
 #poster {
@@ -100,6 +100,11 @@ body {
     }
 }
 
+#main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     #poster {
@@ -111,7 +116,7 @@ body {
         height: 100%;
     }
     .text-details {
-        padding-top: none;
+        padding-top: 0px;
         text-align: start !important;
     }
 }
