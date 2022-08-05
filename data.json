@@ -1,18 +1,33 @@
 {
-    "name": "I Am Groot",
-    "description": "“I Am Groot” is a collection of five original shorts starring Baby Groot, everyone’s favorite little tree, and will feature several new and unusual characters.",
+    "name": "Lightyear",
+    "description": "Legendary space ranger Buzz Lightyear embarks on an intergalactic adventure alongside ambitious recruits Izzy, Mo, Darby, and his robot companion, Sox. As this motley crew tackles their toughest mission yet, they must learn to work together as a team to escape the evil Zurg and his dutiful robot army that are never far behind.",
     "year": 2022,
-    "genre": "Animation",
+    "genre": "Adventure",
     "posters": [
-        "img/posters/i_am_groot.jpg",
-        "img/posters/i_am_groot2.jpg"
+        "img/posters/lightyear.jpg"
     ],
-    "trailerURL": "https://youtu.be/D7eFpRf4tac",
+    "trailerURL": "https://youtu.be/wHBBoUtJHhA",
     "episodes": [
         {
-            "number": 1,
-            "name": "Episode 1",
             "url": ""
         }
-    ]
+    ],
+    "next": {
+        "name": "I Am Groot",
+        "description": "“I Am Groot” is a collection of five original shorts starring Baby Groot, everyone’s favorite little tree, and will feature several new and unusual characters.",
+        "year": 2022,
+        "genre": "Animation",
+        "posters": [
+            "img/posters/i_am_groot.jpg",
+            "img/posters/i_am_groot2.jpg"
+        ],
+        "trailerURL": "https://youtu.be/D7eFpRf4tac",
+        "episodes": [
+            {
+                "number": 1,
+                "name": "Episode 1",
+                "url": "s"
+            }
+        ]
+    }
 }
