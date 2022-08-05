@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $.getJSON("data.json", function (data) {
+    $.getJSON("https://raw.githubusercontent.com/foxster-mp4/NowShowing/master/data.json", function (data) {
         // Poster & background 
-        $("#poster-container").append(`<img src="${data.posters[Math.floor(Math.random() * data.posters.length)]}" id="poster" alt="poster">`)
+        $("#poster-container").html(`<img src="${data.posters[Math.floor(Math.random() * data.posters.length)]}" id="poster" alt="poster">`)
         setBackground()
 
         // Title
@@ -25,6 +25,7 @@ $(document).ready(function() {
         // Trailer
         if (data.trailerURL != null) {
             $("#trailer").attr("href", data.trailerURL);
+            $("#trailer").removeClass("disabled")
         }
         
         const episodes = data.episodes;
@@ -65,6 +66,8 @@ $(document).ready(function() {
                 </ul>
             `);
         } else latestEpisode = episodes[0]; // 1 episode (movie)
+
+        $("#watch-button").removeClass("disabled");
 
         // Watch button text
         if (latestEpisode.url == null || latestEpisode.url.trim().length == 0) { // No URL

@@ -3,6 +3,41 @@ h1 {
     font-weight: 600 !important;
 }
 
+h1 span {
+    background-color: white;
+    width: fit-content;
+    animation: pulsing 2.5s ease-in-out infinite;
+}
+
+p span {
+    background-color: white;
+    width: fit-content;
+    animation: pulsing 2s ease-in-out infinite;
+}
+
+#details p span {
+    background-color: lightgray;
+    width: fit-content;
+    animation: pulsing 2.25s ease-in-out infinite;
+    color: lightgray !important;
+}
+
+#poster-placeholder {
+    background-color: darkgray;
+    width: 90%;
+    animation: pulsing 2.4s ease-in-out infinite;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 10px;
+    max-width: 350px;
+    aspect-ratio: 8/11;
+}
+
+@keyframes pulsing {
+    0% { opacity: 15%; }
+    50% { opacity: 100%; }
+    100% { opacity: 15%; }
+}
+
 h6 {
     color: rgba(255,255,255, 0.7);
     text-transform: uppercase;

@@ -13,23 +13,27 @@
   <div class="container-fluid d-flex align-items-center justify-content-center h-100" id="main-container">
     <div class="row" id="sub-container">
       <div class="col-sm d-flex justify-content-center align-items-center" id="poster-container">
+        <div id="poster-placeholder"></div>
         <!-- <img src="" id="poster" alt="poster"> -->
       </div>
       <div class="d-flex flex-column justify-content-center col-sm text-details">
         <h6>Now showing</h6>
-        <h1 id="title">Title</h1>
-        <p id="description">The quick brown fox jumps over the lazy dog.</p>
+        <h1 id="title"><span>Hello, World!</span></h1>
+        <p id="description">
+          <span>Yeet! This is where the movie/show's description goes. The quick brown fox jumps over the lazy dog.</span>
+        </p>
         <div id="details">
-          <p id="genre">Genre</p>
-          <p id="year">1337</p>
+          <p id="genre"><span>Genre</span></p>
+          <p id="year"><span>Genre</span></p>
         </div>
         <div class="mt-3">
-          <a id="trailer" class="btn btn-light m-1" target="_blank">
+          <a id="trailer" class="btn btn-light m-1 disabled" target="_blank">
             <i class="bi bi-film"></i> Watch Trailer
           </a>
           <div id="watch-button-container" class="btn-group m-1">
-            <a id="watch-button" class="btn btn-light" target="_blank">
-              <i class="bi bi-play-fill"></i> <span id="watch-text"></span> </span>
+            <a id="watch-button" class="btn btn-light disabled" target="_blank">
+              <i class="bi bi-play-fill"></i> <span id="watch-text">
+                Unavailable
             </a>
           </div>
         </div>
