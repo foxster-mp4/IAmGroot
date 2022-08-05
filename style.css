@@ -47,21 +47,33 @@ p {
     color: white; 
 }
 
+/* Bootstrap button override */
 .btn {
     font-weight: 500;
 }
-
-.btn:hover {
+.btn:hover, .btn:focus, .btn:active {
     box-shadow: none !important; /* Remove Bootstrap default outline */
 }
-
-.btn:active {
-    /* background-color: red; */
+@media(hover: hover) { /* Devices with hover */
+    .btn:active {
+        opacity: 80%;
+        transition: .15s ease-in-out;
+    }
+}
+@media(hover: none) { /* Devices with no hover (mobile) */
+    .btn:hover, .btn:focus {
+        background-color: var(--bs-btn-bg);
+        color: var(--bs-btn-color);
+    }
+    .btn:active {
+        color: var(--bs-btn-hover-color);
+        background-color: var(--bs-btn-hover-bg);
+    }
 }
 
-.btn-outline-light.disabled {
+/* .btn-outline-light.disabled {
     color: white;
-}
+} */
 
 #details p {
     display: inline;

@@ -84,8 +84,6 @@ $(document).ready(function() {
             } else {
                 episodeTitle = "Now";
             }
-
-            console.log(episode.url)
             
             // Main URL is available
             if (episode.url != null && episode.url.trim().length > 0) {
@@ -107,6 +105,10 @@ $(document).ready(function() {
                 $("#main-button").attr("href", "#");
             }
         }
+
+        $(".btn").click(function () {
+            $(this).blur() // Remove focus state
+        })
 
         // Episode option click listener
         $(".dropdown-item").click(function(event) {
