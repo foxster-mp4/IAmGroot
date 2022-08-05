@@ -93,6 +93,10 @@ p {
 
 .h-100 { min-height: 100vh; }
 
+i {
+    margin-right: 2px;
+}
+
 body {
     background-color: rgba(0,0,0, 0.8);
     /* animation: animate-gradient 10s linear infinite; */

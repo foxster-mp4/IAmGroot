@@ -106,9 +106,10 @@ $(document).ready(function() {
             }
         }
 
+        $(".btn").blur();
         $(".btn").click(function () {
-            $(this).blur() // Remove focus state
-        })
+            $(this).blur(); // Remove focus state
+        });
 
         // Episode option click listener
         $(".dropdown-item").click(function(event) {
