@@ -47,6 +47,18 @@ p {
     color: white; 
 }
 
+.btn {
+    font-weight: 500;
+}
+
+.btn:hover {
+    box-shadow: none !important; /* Remove Bootstrap default outline */
+}
+
+.btn:active {
+    /* background-color: red; */
+}
+
 .btn-outline-light.disabled {
     color: white;
 }
@@ -62,6 +74,9 @@ p {
 
 .dropdown-item.selected::after { 
     content: " ✓"; 
+    position: relative;
+    right: -3px;
+    top: -1px;
 }
 
 .h-100 { min-height: 100vh; }

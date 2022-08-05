@@ -6,10 +6,11 @@
     "posters": [
         "img/posters/lightyear.jpg"
     ],
-    "trailerURL": "https://youtu.be/wHBBoUtJHhA",
+    "_trailerURL": "https://youtu.be/wHBBoUtJHhA",
+    "trailerURL": "#",
     "episodes": [
         {
-            "_url": "https://drive.google.com/file/d/1R5GYIa_wWzWX0oqjtf8wVkl7Qdflqwbg"
+            "downloadURL": "https://drive.google.com/uc?export=download&id=1R5GYIa_wWzWX0oqjtf8wVkl7Qdflqwbg&confirm=t"
         }
     ],
     "next": {
@@ -26,7 +27,7 @@
             {
                 "number": 1,
                 "name": "Episode 1",
-                "url": "s"
+                "url": ""
             }
         ]
     }
