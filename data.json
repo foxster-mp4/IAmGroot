@@ -1,0 +1,18 @@
+{
+    "name": "I Am Groot",
+    "description": "“I Am Groot” is a collection of five original shorts starring Baby Groot, everyone’s favorite little tree, and will feature several new and unusual characters.",
+    "year": 2022,
+    "genre": "Animation",
+    "posters": [
+        "img/posters/i_am_groot.jpg",
+        "img/posters/i_am_groot2.jpg"
+    ],
+    "trailerURL": "https://youtu.be/D7eFpRf4tac",
+    "episodes": [
+        {
+            "number": 1,
+            "name": "Episode 1",
+            "url": ""
+        }
+    ]
+}

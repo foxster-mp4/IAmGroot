@@ -8,64 +8,27 @@ h6 {
     text-transform: uppercase;
 }
 
-p {
-    color: white;
+p { 
+    color: white; 
 }
 
 #details p {
     display: inline;
-}
-
-#details p {
     color: rgba(255,255,255, 0.7) !important;
 }
 
-#year::before {
+#year::before { 
     content: "• ";
 }
 
-.dropdown-item.selected::after {
-    content: "✓";
-    position: relative;
-    top: -1px;
-    right: -45px;
+.dropdown-item.selected::after { 
+    content: " ✓"; 
 }
-
-#poster {
-    border-radius: 10px;
-}
-
-.red { background-color: red; }
 
 .h-100 { min-height: 100vh; }
 
-/* #background-container { */
-#background {
-    
-    height: 150%;
-    /* max-height: 100vh; */
-
-    /* overflow: hidden !important;
-    background-image: url("../img/lp_site.jpg"); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    background-size: 100%;
-
-    /* filter: blur(60px);
-    -webkit-filter: blur(60px); */
-    /* transform: scale(1.7);  */
-
-    position: absolute;
-    z-index: -1; 
-}
-
-#background {
-    height: 150%;
-    position: absolute;
-    z-index: -1; 
-}
-
 body {
+    background-color: rgba(0,0,0, 0.8);
     /* animation: animate-gradient 10s linear infinite; */
     /* transform: translateZ(0); */
     /* transform: rotateZ(360deg) */
@@ -80,9 +43,15 @@ body {
 	100% { background-position: 0% 50%; }
 }
 
+#main-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #poster {
-    width: 70%;
+    border-radius: 10px;
     box-shadow: 0px 5px 15px black;
+    width: 70%;
 }
 
 .text-details {
@@ -90,30 +59,15 @@ body {
     text-align: center;
 }
 
-#sub-container {
-    width: 90%;
+#sub-container { 
+    width: 90%; 
 }
 
-@media (max-width: 576px) {
-    #background {
-        height: 100%;
-    }
-}
-
-#main-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices */
 @media (min-width: 576px) {
     #poster {
         min-width: 50%;
         width: 90%;
-        /* height: fit-content; */
-    } 
-    #background {
-        height: 100%;
     }
     .text-details {
         padding-top: 0px;
@@ -121,19 +75,15 @@ body {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices */
 @media (min-width: 768px) {
     #poster {
-        /* height: 50%; */
         min-width: auto;
         width: 70%;
         max-width: 100vh;
     }
     #sub-container {
         width: 80%;
-    }
-    #background {
-        max-height: 100vh;
     }
 }
 
