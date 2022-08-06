@@ -155,14 +155,14 @@ body {
         width: 90%;
     }
     #sub-container {
-        width: 100%;
+        width: 90%;
     }
     .text-details {
         padding-top: 0px;
         text-align: start !important;
     }
     .btn, .btn-group {
-        width: unset;
+        width: 100%;
     }
 }
 
@@ -175,6 +175,9 @@ body {
     }
     #sub-container {
         width: 90%;
+    }
+    .btn, .btn-group {
+        width: unset;
     }
 }
 
