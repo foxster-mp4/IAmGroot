@@ -15,6 +15,8 @@ p span {
     animation: pulsing 2s ease-in-out infinite;
 }
 
+.red { background: red; }
+
 #details p span {
     background-color: lightgray;
     width: fit-content;
@@ -133,18 +135,34 @@ body {
     width: 95%; 
 }
 
+#button-container {
+    align-self: center;
+    width: 95vw;
+}
+
+.btn, .btn-group {
+    width: 80%;
+}
+
 /* Small devices */
 @media (min-width: 576px) {
+    #button-container {
+        align-self: center;
+        width: 100%;
+    }
     #poster {
         min-width: 50%;
         width: 90%;
     }
     #sub-container {
-        width: 90%;
+        width: 100%;
     }
     .text-details {
         padding-top: 0px;
         text-align: start !important;
+    }
+    .btn, .btn-group {
+        width: unset;
     }
 }
 
@@ -152,11 +170,11 @@ body {
 @media (min-width: 768px) {
     #poster {
         min-width: auto;
-        width: 70%;
+        width: 80%;
         max-width: 100vh;
     }
     #sub-container {
-        width: 80%;
+        width: 90%;
     }
 }
 
