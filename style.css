@@ -130,13 +130,16 @@ body {
 }
 
 #sub-container { 
-    width: 90%; 
+    width: 95%; 
 }
 
 /* Small devices */
 @media (min-width: 576px) {
     #poster {
         min-width: 50%;
+        width: 90%;
+    }
+    #sub-container {
         width: 90%;
     }
     .text-details {
