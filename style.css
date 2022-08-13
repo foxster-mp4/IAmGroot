@@ -67,9 +67,13 @@ p {
         background-color: var(--bs-btn-bg);
         color: var(--bs-btn-color);
     }
-    .btn:active {
-        color: var(--bs-btn-hover-color);
+    .btn.dropdown-toggle:hover {
         background-color: var(--bs-btn-hover-bg);
+        color: var(--bs-btn-hover-color);
+    }
+    .btn:active {
+        background-color: var(--bs-btn-hover-bg);
+        color: var(--bs-btn-hover-color);
     }
 }
 
@@ -142,6 +146,10 @@ body {
 
 .btn, .btn-group {
     width: 80%;
+}
+
+.btn-group button {
+    max-width: 30px;
 }
 
 /* Small devices */

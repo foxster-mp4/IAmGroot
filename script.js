@@ -49,18 +49,18 @@ $(document).ready(function() {
                 episodeOptions += `" href="${episode.url}" n=${i}>`
                 if (episode.number != null)
                     episodeOptions += `Episode ${episode.number}`;
+                if (episode.number != null && episode.name != null)
+                    episodeOptions += " • "
+                if (episode.name != null)
+                    episodeOptions += `${episode.name}`;
                 else 
                     episodeOptions += `bruh`;
-                // if (episode.number != null && episode.name != null)
-                //     episodeOptions += " – "
-                // if (episode.name != null)
-                //     episodeOptions += `${episode.name}`
                 episodeOptions += `</a></li>`;
             }
 
             // Add option to select episode
             $("#main-button-container").append(`
-                <button type="button" class="btn btn-outline-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
                     <span class="visually-hidden">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu">
