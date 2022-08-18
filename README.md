@@ -1,5 +1,5 @@
 # NowShowing
-Static, single page movie poster.
+Static, single page movie poster
 
 ### See for Yourself
 https://foxster-mp4.github.io/NowShowing/
