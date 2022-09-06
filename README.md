@@ -2,7 +2,7 @@
 Static, single page movie poster
 
 ### See for Yourself
-https://foxster-mp4.github.io/NowShowing/
+https://therealFoxster.github.io/NowShowing/
 
 ### Screenshots
 <img src="img/screenshots/lightyear.png" alt="computer-browser-screenshot" width="375"/>
