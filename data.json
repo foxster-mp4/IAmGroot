@@ -1,38 +1,15 @@
 {
-    "name": "I Am Groot",
-    "description": "“I Am Groot” is a collection of five original shorts starring Baby Groot, everyone’s favorite little tree, and will feature several new and unusual characters.",
+    "name": "Thor: Love and Thunder",
+    "description": "In Marvel Studios’ “Thor: Love and Thunder” the God of Thunder teams up with King Valkyrie, Korg and ex-girlfriend-turned-Mighty-Thor Jane Foster to take on a galactic killer known as Gorr the God Butcher.",
     "year": 2022,
-    "genre": "Animation",
+    "genre": "Action & Adventure",
     "posters": [
-        "img/posters/i_am_groot.jpg",
-        "img/posters/i_am_groot2.jpg"
+        "img/posters/thor_love_and_thunder.jpg"
     ],
-    "trailerURL": "https://youtu.be/D7eFpRf4tac",
+    "trailerURL": "https://trailers.apple.com/trailers/disney/thor-love-and-thunder/",
     "episodes": [
         {
-            "number": 1,
-            "name": "Groot's First Steps",
-            "url": "https://drive.google.com/file/d/1xOxPr0t-JwabtOFGKAxUpPjo0ZWfA1oZ/view?usp=sharing"
-        },
-        {
-            "number": 2,
-            "name": "The Little Guy",
-            "url": "https://drive.google.com/file/d/1Vltd9ngzuwMsq7f9ftG-e9eCr4szSnN5/view?usp=sharing"
-        },
-        {
-            "number": 3,
-            "name": "Groot's Pursuit",
-            "url": "https://drive.google.com/file/d/16p58-gdgnitjopiiGKWHZ-1hG_bQEFiO/view?usp=sharing"
-        },
-        {
-            "number": 4,
-            "name": "Groot takes a Bath",
-            "url": "https://drive.google.com/file/d/1tv_mfvyS8XK4robUnSmvi2rlnrR-iWDG/view?usp=sharing"
-        },
-        {
-            "number": 5,
-            "name": "Magnum Opus",
-            "url": "https://drive.google.com/file/d/1ehSAi1676KpBjP0-2UFTvR-WCqcbo2Qe/view?usp=sharing"
+            "url": "https://drive.google.com/file/d/17X2WX-twt89K9MF8qY8qZtLmGn7vSy5k/view?usp=sharing"
         }
     ]
 }
